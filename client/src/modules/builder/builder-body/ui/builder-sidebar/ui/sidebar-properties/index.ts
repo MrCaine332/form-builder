@@ -1,0 +1,1 @@
+export { SidebarProperties } from "./SidebarProperties"
