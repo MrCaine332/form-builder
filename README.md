@@ -9,7 +9,7 @@
 - After cloning repository, move to the ***server*** folder by command ```cd ./server```.
 - Once in the ***server*** directory, use ```npm install``` command to install all dependencies.
 - add ```.env``` file with the following fields to the server root (replace values with yours):
-    - DATABASE_URL='mysql://<user>:<password>@<host>:<port>/<database-name>'
+    - DATABASE_URL='mysql://[user]:[password]@[host]:[port]/[database-name]'
     - JWT_ACCESS_TOKEN_SECRET='your-secret-key'
     - JWT_ACCESS_TOKEN_EXPIRATION_TIME=900 
     - JWT_REFRESH_TOKEN_SECRET='your-secret-key'
